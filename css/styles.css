@@ -1,0 +1,207 @@
+body {
+  color: #40514E;
+  background-color: #F6DFEB;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 2;
+}
+
+.copyright{
+  font-size: .75rem;
+  padding:20px 0;
+}
+.top-container {
+  text-align:center;
+  max-height: 600px;
+  background-color: #C3AED6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
+
+.bottom-container {
+  text-align: center;
+  padding: 40px 0 20px;
+  color: #6155A6;
+  background-color: #C3AED6;
+}
+
+.bottom-cloud {
+  padding-bottom: 10px;
+  animation-duration: 15s;
+  animation-name: slidein2;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: 200px;
+}
+
+@keyframes slidein2 {
+  0% {
+    margin-left: 4%;
+  }
+  50% {
+    margin-left: 900px;
+  }
+  100% {
+    margin-left: 4%;
+  }
+}
+
+.top-cloud {
+  bottom: 50px;
+  animation-duration: 16s;
+  animation-name: slidein1;
+  animation-iteration-count: infinite;
+  position: relative;
+  right: 600px;
+}
+
+@keyframes slidein1 {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 800px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+/* update mountain png with handdrawn hobby hill + small moveable characters(motorcycle, trees?) */
+.mountain{
+  left: 20px;
+  bottom: 145px;
+  position: relative;
+}
+.profile{
+  text-align: center;
+}
+.profileImg{
+  padding-bottom: 50px;
+}
+.skills{
+  padding-top: 40px;
+}
+.skill-row {
+  text-align: left;
+  margin:100px auto;
+  width: 50%;
+}
+.workSetUp{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.computer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+hr {
+  color: #40514E 6px;
+  border: dotted;
+  border-bottom:none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  font-weight: 600;
+  color: #6155A6;
+  margin: 80px auto 0 auto;
+  font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+  /* font-weight: lighter; */
+  text-align: center;
+  padding-bottom: 10px;
+  color: #6155A6;
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h3 {
+  text-align: center;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #6155A6;
+  font-family: Montserrat;
+  margin: 10px 20px;
+}
+
+.welcomeSlide{
+  align-content: center;
+}
+
+.welcomeSlide.scrolled {
+  animation-name: welcomeSlide;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes welcomeSlide {
+  0% {
+    margin-right: 990px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+.contact-me{
+  text-align: center;
+}
+.contact-message{
+  text-align: center;
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.pro{
+  font-size: 4rem;
+  margin-top: 40px;
+  position: relative;
+  bottom: 40px;
+}
+.pro-bottom{
+  position: relative;
+  bottom: 40px;
+  font-weight: normal;
+}
+.projects{
+  max-width: 30%;
+  max-height: 30%;
+}
+
+
+#carouselExampleCaptions{
+  display: block;
+  align: center;
+  padding-bottom: 90px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* update buttons */
+
+
+/* add carousel for other projects */
+/* update contact me to an actual form that returns you to the webpage when done */
+/* update copyright to javascrpt function to keep current */

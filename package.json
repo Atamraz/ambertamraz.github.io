@@ -1,0 +1,17 @@
+{
+  "name": "css-mysite",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.html",
+  "dependencies": {
+    "express": "^4.17.1",
+    "bootstrap": "^5.1.3",
+    "node": "^17.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

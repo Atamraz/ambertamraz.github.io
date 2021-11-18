@@ -1,0 +1,186 @@
+body {
+background-color: #C3AED6;
+}
+h1{
+  color: #6155A6;
+}
+h2{
+  color: #6155A6;
+  font-family: "Asap", sans-serif;
+  font-size: 5rem;
+}
+p{
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.4rem;
+}
+footer{
+  background-color: #FFDCF5;
+}
+
+.text-custom{
+  text-decoration: none;
+  color: #6155A6;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: "Catamaran", sans-serif;
+}
+a.text-custom:hover {
+  color: #CAB8FF;
+}
+
+.pro{
+  font-weight: lighter;
+  font-family: "Lobster", cursive;
+  font-size: 4.5rem;
+}
+
+.pro-bottom{
+  z-index: 2;
+  padding-bottom: 20px;
+}
+
+.navbar-custom {
+  background-color: #FFDCF5;
+}
+
+.top-container {
+  text-align:center;
+  max-height: 600px;
+  background-color: #FFDCF5;
+  position: relative;
+  padding-top: 60px;
+}
+
+.top-cloud {
+  max-width: 10%;
+  bottom: 40px;
+  animation-duration: 17s;
+  animation-name: slidein1;
+  animation-iteration-count: infinite;
+  position: relative;
+  right: 600px;
+}
+
+@keyframes slidein1 {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 800px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+.bottom-cloud {
+  z-index: 2;
+  max-width: 10%;
+  bottom: 30px;
+  animation-duration: 16s;
+  animation-name: slidein2;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: 200px;
+}
+@keyframes slidein2 {
+  0% {
+    margin-left: 4%;
+  }
+  50% {
+    margin-left: 900px;
+  }
+  100% {
+    margin-left: 4%;
+  }
+}
+/* placeholder until handdrawn is done */
+.mountain{
+  opacity: 40%;
+  max-width: 50%;
+  z-index: 1;
+  bottom: 180px;
+  position: relative;
+  /* left: 20px;
+  bottom: 170px;
+  position: relative; */
+}
+
+/* .welcomeSlide{
+  align-content: center;
+} */
+
+/* .welcomeSlide.scrolled {
+  animation-name: welcomeSlide;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes welcomeSlide {
+  0% {
+    margin-left: 1000px;
+  }
+  /* 50% {
+    margin-left: 500px;
+  } */
+  /* 100% {
+    margin-left: 10px;
+  }
+} */
+
+.about-me{
+  text-align: center;
+  margin: 5%;
+}
+.bio {
+  margin-top: 120px;
+}
+
+.recent-work{
+  padding: 5%;
+}
+.wrench{
+  padding-bottom: 15px;
+  max-width: 7%;
+}
+.pencil{
+  padding-right: 1.5%;
+  max-width: 8%;
+  transform: rotate(90deg);
+}
+
+
+.bottom-container{
+  background-color: #FFDCF5;
+  text-align: center;
+  max-height: 60px;
+  padding-top: 30px;
+  padding-right: 60px;
+  padding-bottom: 3.5%;
+}
+.linkedInImg{
+  max-width: 100px;
+  max-height: 200px;
+}
+
+.GitHubImg{
+  max-width: 100px;
+  max-height: 200px;
+}
+
+.envelope{
+  padding-left: 10px;
+  max-height: 60px;
+ max-width: 50px;
+}
+
+.text-custom-bottom{
+  text-decoration: none;
+  color: #6155A6;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Catamaran", sans-serif;
+}
+.text-custom-bottom:hover{
+  color: #CAB8FF;
+}
