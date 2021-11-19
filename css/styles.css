@@ -38,37 +38,39 @@ p {
   background-color: #C3AED6;
 }
 
+
 .bottom-cloud {
   padding-bottom: 10px;
-  animation-duration: 15s;
+  /* animation-duration: 15s;
   animation-name: slidein2;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
   position: relative;
   left: 200px;
 }
 
-@keyframes slidein2 {
+
+/* @keyframes slidein2 {
   0% {
     margin-left: 4%;
   }
   50% {
-    margin-left: 900px;
+    margin-left: 600px;
   }
   100% {
     margin-left: 4%;
   }
-}
+} */
 
 .top-cloud {
   bottom: 50px;
-  animation-duration: 16s;
+  /* animation-duration: 16s;
   animation-name: slidein1;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
   position: relative;
   right: 600px;
 }
 
-@keyframes slidein1 {
+/* @keyframes slidein1 {
   0% {
     margin-left: 0%;
   }
@@ -78,7 +80,8 @@ p {
   100% {
     margin-left: 0%;
   }
-}
+} */
+
 /* update mountain png with handdrawn hobby hill + small moveable characters(motorcycle, trees?) */
 .mountain{
   left: 20px;

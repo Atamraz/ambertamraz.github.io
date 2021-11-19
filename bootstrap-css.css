@@ -54,11 +54,20 @@ a.text-custom:hover {
 .top-cloud {
   max-width: 10%;
   bottom: 40px;
-  animation-duration: 17s;
-  animation-name: slidein1;
-  animation-iteration-count: infinite;
   position: relative;
   right: 600px;
+}
+@media screen and (max-width: 1000px) {
+  .top-cloud{
+    right: 150px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .top-cloud{
+    animation-duration: 17s;
+    animation-name: slidein1;
+    animation-iteration-count: infinite;
+  }
 }
 
 @keyframes slidein1 {
@@ -66,29 +75,33 @@ a.text-custom:hover {
     margin-left: 0%;
   }
   50% {
-    margin-left: 800px;
+    margin-left: 600px;
   }
   100% {
     margin-left: 0%;
   }
 }
-
-.bottom-cloud {
+.bottom-cloud{
   z-index: 2;
   max-width: 10%;
   bottom: 30px;
-  animation-duration: 16s;
-  animation-name: slidein2;
-  animation-iteration-count: infinite;
   position: relative;
   left: 200px;
+}
+
+@media screen and (min-width: 1000px) {
+  .bottom-cloud {
+  animation-duration: 12s;
+  animation-name: slidein2;
+  animation-iteration-count: infinite;
+}
 }
 @keyframes slidein2 {
   0% {
     margin-left: 4%;
   }
   50% {
-    margin-left: 900px;
+    margin-left: 20%;
   }
   100% {
     margin-left: 4%;
@@ -99,13 +112,17 @@ a.text-custom:hover {
   opacity: 40%;
   max-width: 50%;
   z-index: 1;
-  bottom: 180px;
+  bottom: 140px;
   position: relative;
   /* left: 20px;
   bottom: 170px;
   position: relative; */
 }
-
+@media screen and (max-width: 800px) {
+  .mountain{
+    bottom: 30px;
+  }
+}
 /* .welcomeSlide{
   align-content: center;
 } */
