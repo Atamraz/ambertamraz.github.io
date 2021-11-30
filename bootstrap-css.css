@@ -83,7 +83,7 @@ a.text-custom:hover {
 }
 .bottom-cloud{
   z-index: 2;
-  max-width: 10%;
+  max-width: 23%;
   bottom: 30px;
   position: relative;
   left: 200px;
@@ -112,7 +112,7 @@ a.text-custom:hover {
   opacity: 40%;
   max-width: 50%;
   z-index: 1;
-  bottom: 140px;
+  bottom: 400px;
   position: relative;
   /* left: 20px;
   bottom: 170px;
